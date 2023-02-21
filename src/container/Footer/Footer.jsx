@@ -47,6 +47,17 @@ const Footer = () => (
     </div>
     <div className="footer__copyright">
       <p className="p__opensans">2021 Gerícht. All Rights reserved.</p>
+      <p className="p__opensans">
+        <small>
+          icons by{" "}
+          <span className="special">
+            <a target="_blank" rel="noreferrer" href="https://icons8.com">
+              Icons8
+            </a>
+          </span>{" "}
+          and React-Icons
+        </small>
+      </p>
     </div>
   </div>
 );
